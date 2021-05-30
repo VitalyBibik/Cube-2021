@@ -1,4 +1,4 @@
-<div style="text-align: center; font-size: 30px">Cube-2021</div>
+#Cube-2021
 
 #### 1) git clone https://github.com/VitalyBibik/Cube-2021.git - Клонирование проекта
 #### 2) yarn dev - Запуск проекта в режиме продакшена
