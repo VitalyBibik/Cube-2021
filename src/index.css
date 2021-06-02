@@ -1,11 +1,17 @@
+body {
+   /*background-color: #3f51b5;*/
+}
 .page {
     max-width:1110px;
     background-color: red;
 }
 
 .header {
-    background-image: url('../images/Header.png');
-    opacity: 0.64;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/Header.png'); /* Подобрать цвет градиента */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
 }
 
 .title {
@@ -31,7 +37,7 @@
 
 .box {
    display: flex;
-   justify-content: center; 
+   justify-content: center;
    background-color:lightskyblue;
    padding-top: 70px;
    padding-bottom: 66px;
