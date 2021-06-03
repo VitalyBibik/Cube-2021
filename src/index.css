@@ -1,5 +1,6 @@
 body {
    /*background-color: #3f51b5;*/
+   font-family: 'Bitter', sans-serif;
 }
 .page {
     max-width:1110px;
@@ -33,6 +34,11 @@ body {
     color: #FFFFFF;
     font-weight: 100;
 }
+.subtitle_description {
+    padding: 0;
+}
+
+
 /* Box start */
 
 .box {
@@ -44,14 +50,38 @@ body {
 
 }
 .text {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     max-width: 1110px;
+}
+.text_description {
+    margin-top: 16px;
+    margin-bottom: 0;
+    max-width: 542px;
 }
 
 /* Box end */
 
-
-* {
-    border: 1px solid black;
+/* Description Start  */
+.description {
+    background: #BBD6D6;
+    padding-bottom: 124px;
+    padding-top: 32px;
 }
+
+.mainTable {
+    max-width:1110px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.table:nth-child(2){
+    margin-left: 24px;
+}
+.table:hover {
+    color:red;
+}
+
+/* Description End */
+
+
