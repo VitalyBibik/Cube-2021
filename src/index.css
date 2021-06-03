@@ -104,7 +104,7 @@ body {
     max-width:1110px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(236px, 4fr)); /* Адаптивный вариант */
     grid-row-gap: 27px;
     padding-bottom:105px;
 }
