@@ -144,6 +144,8 @@ body {
     height: 63px;
 
 }
-.finish {
-  align-self: flex-end;
+.finish:last-child {
+    position: relative;
+    top: 45px;
+    align-self: flex-end;
 }
