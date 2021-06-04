@@ -108,10 +108,16 @@ body {
     grid-row-gap: 27px;
     padding-bottom:105px;
 }
+.card_size {
+    max-width: 20rem;
+}
 
-.container {
+.container1 {
     display: flex;
     justify-content: center;
+}
+.col_m {
+    margin-bottom: 20px;
 }
 
 .button {
