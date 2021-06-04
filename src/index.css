@@ -110,6 +110,8 @@ body {
 }
 .card_size {
     max-width: 20rem;
+    max-height: 505px;
+    overflow: hidden;
 }
 
 .container1 {
