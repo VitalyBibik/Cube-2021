@@ -38,7 +38,6 @@ const refresh = () => {
     })
 }
 
-refresh()
-button.addEventListener('click', refresh)
+// button.addEventListener('click', refresh)
 
 
