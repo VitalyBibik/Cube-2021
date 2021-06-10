@@ -1,3 +1,4 @@
+import './index.css'
 const button = document.querySelector('#Load');
 const cardList = document.querySelector('.center__grid')
 
